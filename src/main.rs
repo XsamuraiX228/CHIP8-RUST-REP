@@ -602,7 +602,7 @@ use std::time::{Duration, Instant};
 fn main() {
     let mut cpu = CHIP8::new();
     
-    match read_file("C:/My_VS_code_Projects/Rust/new_project/src/Pong (1 player).ch8") {
+    match read_file("Pong (1 player).ch8") {
         Ok(rom) => cpu.load_rom(&rom),
         Err(e) => println!("{}", e),
     }
