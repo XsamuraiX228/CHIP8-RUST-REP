@@ -374,7 +374,7 @@ fn main() {
     io::stdin().read_line(&mut user_choice).unwrap();
 
     if user_choice.trim() == "run" || user_choice.trim() == "Run" {
-        match read_file("C:/My_VS_code_Projects/Rust/new_project/src/IBM Logo.ch8") {
+        match read_file("Your file here.ch8") {
             Ok(rom) => {
                 cpu.load_rom(&rom);
                 loop {
