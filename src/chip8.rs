@@ -1,5 +1,7 @@
 pub mod module;
 pub mod opcode;
-pub mod execute;
-pub mod fonts;
-
+pub mod multy_executor;
+pub mod memory;
+pub mod cpu;
+pub mod display;
+pub mod keypad;
